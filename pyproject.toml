@@ -1,0 +1,15 @@
+[project]
+name = "tg-articles-code"
+version = "0.1.0"
+description = ""
+authors = [{ name = "DimeWhite", email = "dimsid05@bk.ru" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["aiogram (>=3.22.0,<4.0.0)", "openpyxl (>=3.1.5,<4.0.0)"]
+
+[tool.poetry]
+packages = [{ include = "src", from = "." }]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
